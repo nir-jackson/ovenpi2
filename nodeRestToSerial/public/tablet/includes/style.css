@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Robot;
+    src: url("Roboto-Light.ttf");
+}
+@font-face {
+    font-family: Robot;
+    src: url("Roboto-Thin.ttf");
+    font-weight:lighter;
+}
+
+
+*{
+	margin: 0; padding: 0; font-family:Robot; color: #f0f0f0; 
+}
+html{
+	height:100%;
+	width:100%;
+}
+body {
+	width : 100%;
+	background-color: gray;
+	height:100%;
+
+}
+#left{
+	float:left;
+	width:69.6%;
+	text-align: center;
+	background-color:#333333;
+}
+#streambox2{
+	width: 100%;
+	
+}
+#menu{
+	width: 100%;
+}
+#menu > div{
+	width:25%;
+	float:left;
+}
+#menu > div > img{
+	width:100%;
+	
+}
+#wrapper{
+	float:left;
+	width:30.4%;
+	background-color: #5d5d5d;
+	text-align: center;
+	outline:none;
+}
+#controls{
+	width:100%;
+	height: 36.44%;
+}
+form{
+	margin-top : 3%;
+	margin-left : 17%;
+	height: 130px;
+	width:54.8%;
+	float:left;
+	background-image: url("../images/input.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.inp{
+	width: 44%;
+	float: left;
+	margin-right: 8%;
+	
+}
+input[type="number"] {
+    width: 100%;
+	text-align: center;
+	font-size: 390%;
+	background:none;
+	border: none;
+	font-weight:bold;
+}
+#plus{
+	width: 11.45%;
+	float: left;
+	margin-left:1.5%;
+}
+#add30 {
+	font-size: 250%;
+	text-align: center;
+	line-height: 60px;
+	cursor : pointer;
+	background-image: url("../images/plus30.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#add10{
+	font-size: 250%;
+	text-align: center;
+	line-height: 60px;
+	cursor : pointer;
+	background-image: url("../images/plus10.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+#startstop{
+	border-right:solid 2px  #cccccc;
+	width: 75%;
+	float:left;
+	color: #7cb342;
+	font-weight:bold;
+
+	
+}
+#startstop1{
+	border:solid 1px  #1a1a1a;
+	font-size: 280%;
+	width: 66.3%;
+	margin-left:17%;
+	line-height: 60px;
+	cursor : pointer;
+	float:left;
+	background-color: #464646;
+}
+#clear{
+	width: 24%;
+	float:left;
+}
+#clear > img{
+	width:100%
+	
+}
+
+
+#streambox{
+	text-align:center;
+	background-color: #4d4d4d;
+}
+
+#stream{
+	width: 100%;
+	display:none;
+	
+}
+#power > img{
+	width:100%;
+}
+#lower{
+	width:100%;
+	background-image: url("../images/moblie_background.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#lower > div{
+	text-align:center;
+	font-size:54px;
+	float:left;
+}
+#lower > div > p{
+	width: 100%;
+}
+.diff{
+	border-top: 3px solid #7cb342 !important; 
+}
+.diff > img{
+	width: 40%;
+	float:left;
+}
+.diff > p{
+	width: 59% !important;
+	
+	float:left;
+}
+#popcorn{
+}
+.ui-loader{
+	display:none !important;
+}

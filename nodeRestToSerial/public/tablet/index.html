@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Index</title>
+  <meta name="description" content="">
+  <meta name="author" content="user">
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  -->
+	<link rel="stylesheet" type="text/css" href="includes/style.css" />
+	<script type="text/javascript" src="includes/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="includes/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="includes/script.js"></script>
+  
+</head>
+
+<body>
+	<div id="left">
+		<div id="streambox2">
+			<img src="http://10.10.10.14:8080/stream/video.mjpeg" id="stream">
+			<img id="content">
+		</div>
+		<div id="menu">
+			<div><img src="images/meat_poultry.png" data-value="images/meat_poultry_content.png" ></div>
+			<div><img src="images/healthy_food.png" data-value="images/healthy_food_content.png" ></div>
+			<div><img src="images/snack.png" data-value="images/snack_content.png" class="clickable2"></div>
+			<div><img src="images/cook_guide.png" data-value="images/cooking_guide_content.png" ></div>
+		</div>
+		
+	</div>
+  	<div id="wrapper" data-role="page">
+    	
+		
+		<div id="controls">
+		    <form>
+				<input  type="number" name="quantity" min="0" max="30" value="0" id="min" readonly>
+				<input  type="number" name="quantity" min="0" max="59" value="00" id="sec" readonly>
+			</form>
+			<div id="plus">
+				<div id="add10" class="clickable" data-value="p10s">
+					
+				</div>
+				<div id="add30" class="clickable" data-value="p30s">
+					
+				</div>
+				
+			</div>
+			<div id="startstop1">
+				<div id="startstop" class="clickable" data-value="start">
+					Start
+				</div>
+				<div id="clear" class="clickable" data-value="stop">
+					<img src="images/clear.png" />
+				</div>
+			</div>
+		</div>
+		<div id="streambox">
+			<div id="power">
+				<img src="images/power.png" />
+			</div>
+			
+			<!--<iframe src='http://10.10.10.14:8080/stream' id="stream" frameborder="0"></iframe>
+			-->
+		</div> 
+		<div id="lower">
+			<h1>
+							</h1>
+			<div id="popcorn" class="clickable" data-value="popcorn" style="color:#7cb342; "></div><div></div><div></div>
+			<div></div><div></div><div class="fullscreen"></div>
+		</div>
+	
+  </div>
+</body>
+</html>
